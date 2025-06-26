@@ -9,7 +9,7 @@ namespace _02.BigFactorial
     class Program
     {
         static void Main()
-        {
+        {  
             ushort number = ushort.Parse(Console.ReadLine() ?? "666");
             Console.WriteLine(Factorial(number));
         }
